@@ -11,6 +11,7 @@ section {
 
 .hero {
   font-size: 40px;
+  
 }
 
 nav {
@@ -22,7 +23,7 @@ ul {
   display: flex;
   list-style-type: none;
   width: 500px;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 30px;
 }
 
@@ -31,9 +32,12 @@ li {
   text-decoration: none;
 }
 
+a {
+  color: white;
+}
+
 footer {
   height: 500px;
-  background-color: black;
 }
 
 h1 {
@@ -82,4 +86,34 @@ button:active {
 
 .socials {
   padding-bottom: 200px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border-radius: 20px;
+}
+
+textarea {
+  border-radius: 20px;
+}
+
+.button2 {
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: aquamarine;
+  color: black;
+  font-size: 30px;
+  font-weight: 100;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button2:hover {
+  background-color: azure;
 }
